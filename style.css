@@ -118,3 +118,9 @@ header{
 #log{
     color: darkgreen;
 }
+#User_Password:invalid{
+    border: solid red 1px;
+}
+input:focus{
+    outline: blue solid 1px;
+}

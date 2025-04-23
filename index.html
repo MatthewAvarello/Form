@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div id="left">
@@ -21,7 +22,7 @@
             <p>You know you want to.</p>
         </header>
         <main>
-            <form action="">
+            <form action="" id="formi">
                 <h2>Let's Do This!</h2>
                 <div class="row">
                     <div class="column">
@@ -46,11 +47,11 @@
                 <div class="row">
                     <div class="column">
                         <label for="User_Password">Password</label>
-                        <input type="password" id="User_Password" required>
+                        <input type="password" id="User_Password" required minlength="8">
                     </div>
                     <div class="column">
                         <label for="Confirm_Password">Confirm Password</label>
-                        <input type="password" id="Confirm_Password" required>
+                        <input type="password" id="Confirm_Password" required minlength="8">
                     </div>
                 </div>
                 <button type="submit" id="sub">Submit</button>
